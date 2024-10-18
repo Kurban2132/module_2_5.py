@@ -3,9 +3,13 @@ def get_matrix(n, m, value):
     for row in range(1, n + 1):
         list_1 = []
         matrix.append(list_1)
+        #return matrix
         for colurn in range(1, m + 1):
             list_1.append(value)
-            print(matrix)
+            return(matrix)
+
+
+
 
 
 result1 = get_matrix(2, 2, 10) # result1 - исходный код (n)
