@@ -5,6 +5,10 @@ def get_matrix(n, m, value):
         matrix.append(list_1)
         for column in range(1, 1 + m):
             list_1.append(value)
+        if matrix == 0:
+            matrix = []
+            print(matrix)
+
 
     return matrix
 
