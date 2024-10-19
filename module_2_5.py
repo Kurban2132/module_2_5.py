@@ -3,21 +3,20 @@ def get_matrix(n, m, value):
     for row in range(1, n + 1):
         list_1 = []
         matrix.append(list_1)
-        #return matrix
-        for colurn in range(1, m + 1):
+        for column in range(1, 1 + m):
             list_1.append(value)
-            return(matrix)
+
+    return matrix
 
 
 
-
-
-result1 = get_matrix(2, 2, 10) # result1 - исходный код (n)
-result2 = get_matrix(3, 5, 42)  # result2 - исходный код (m)
-result3 = get_matrix(4, 2, 13)  # result3 - исходный код (value)
+result1 = get_matrix(2, 2, 10)
+result2 = get_matrix(3, 5, 42)
+result3 = get_matrix(4, 2, 13)
 print(result1)
 print(result2)
 print(result3)
+
 
 
 
